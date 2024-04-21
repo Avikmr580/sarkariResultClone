@@ -1,0 +1,669 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.container {
+    height: auto;
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+.wrapper {
+    height: auto;
+    width: 80%;
+    margin: 0px auto;
+    /* border: 1px solid black; */
+}
+
+.header {
+    height: 175px;
+    width: 100%;
+    padding: 12px 20px;
+    background-color: rgb(171, 24, 61);
+    position: relative;
+
+}
+
+.header img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    float: left;
+}
+
+.headline {
+    position: absolute;
+    right: 25%;
+    top: 20%;
+    text-align: center;
+    color: white;
+}
+
+.headline h1 {
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+.headline h2 {
+    font-size: 20px;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav li {
+    width: 126px;
+    float: left;
+}
+
+.nav li a {
+    background-color: #000;
+    display: block;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    border-right: 1px solid white;
+}
+
+.nav a:hover {
+    background-color: purple;
+    color: white;
+}
+
+.latest_job {
+    text-align: center;
+    margin-top: 75px;
+}
+
+.latest_job h3 {
+    padding-bottom: 15px;
+}
+
+.latest_job p {
+    font-weight: 600;
+    color: red;
+}
+
+.marquee {
+    margin-top: 20px;
+    color: rgb(0, 0, 238);
+}
+
+.marquee h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+marquee {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.tool {
+    margin-top: 30px;
+    /* height: 200px;
+    width: 100%; */
+}
+
+.tool h2 {
+    width: 300px;
+    text-align: center;
+    padding: 0px 25px 10px 25px;
+    background-color: rgb(0, 0, 160);
+    margin-left: 340px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.tool .tools h3 {
+    width: calc(98% / 4);
+    text-align: center;
+    height: 60px;
+    font-size: 20px;
+    background-color: rgb(134, 138, 8);
+    color: white;
+    font-weight: bold;
+    margin-bottom: 1px;
+    padding-top: 5px;
+}
+
+.tools h3:nth-child(2) {
+    margin-left: 253px;
+    margin-top: -61px;
+    background-color: rgb(4, 4, 108);
+}
+
+.tools h3:nth-child(3) {
+    margin-left: 507px;
+    margin-top: -61px;
+    background-color: rgb(251, 94, 3);
+}
+
+.tools h3:nth-child(4) {
+    margin-left: 762px;
+    margin-top: -61px;
+    background-color: rgb(140, 1, 1);
+}
+
+.tools1 {
+    float: left;
+    margin-top: 5px;
+    background-color: rgb(151, 3, 3);
+}
+
+.tools h3:nth-child(6) {
+    margin-left: 5px;
+    background-color: rgb(11, 97, 11);
+}
+
+.tools h3:nth-child(7) {
+    margin-left: 6px;
+    background-color: rgb(255, 0, 291);
+}
+
+.tools h3:nth-child(8) {
+    margin-left: 8px;
+    background-color: rgb(0, 128, 255);
+}
+
+/* TODO */
+/* Categories-1 */
+.categories1 {
+    width: 100%;
+    height: 1100px;
+    margin-top: 150px;
+    background-color: white;
+}
+
+.categories1 .left {
+    height: auto;
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+    border: 2px solid red;
+}
+
+.categories1 .center {
+    height: auto;
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+    border: 2px solid red;
+}
+
+.categories1 .right {
+    height: auto;
+    width: 30%;
+    float: left;
+    border: 2px solid red;
+}
+
+.categories1 .left .heading1 {
+    text-align: center;
+}
+
+.categories1 .left .heading1 h2 {
+    padding: 0px 15px 15px;
+    background-color: rgb(171, 24, 61);
+    color: white;
+}
+
+.categories1 .left .list1 ul {
+    margin-left: 30px;
+    text-decoration: underline;
+    color: rgb(0, 21, 239);
+}
+
+.categories1 .left .list1 li {
+    padding-top: 10px;
+}
+
+.categories1 .left .view1 {
+    margin-top: 20px;
+}
+
+.categories1 .left .view1 h3 {
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 160);
+}
+
+.categories1 .center .heading2 {
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.categories1 .center .heading2 h2 {
+    padding: 0px 15px 15px;
+    background-color: rgb(171, 24, 61);
+    color: white;
+}
+
+.categories1 .center .list2 ul {
+    margin-left: 30px;
+    text-decoration: underline;
+    color: rgb(0, 21, 239);
+}
+
+.categories1 .center .list2 li {
+    padding-top: 10px;
+}
+
+.categories1 .center .view2 {
+    margin-top: 20px;
+}
+
+.categories1 .center .view2 h3 {
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 160);
+}
+
+.categories1 .right .heading3 {
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.categories1 .right .heading3 h2 {
+    padding: 0px 15px 15px;
+    background-color: rgb(171, 24, 61);
+    color: white;
+}
+
+.categories1 .right .list3 ul {
+    margin-left: 30px;
+    text-decoration: underline;
+    color: rgb(0, 21, 239);
+}
+
+.categories1 .right .list3 li {
+    padding-top: 10px;
+}
+
+.categories1 .right .view3 {
+    margin-top: 20px;
+}
+
+.categories1 .right .view3 h3 {
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 160);
+}
+
+/* Categories-2 */
+.categories2 {
+    width: 100%;
+    height: 600px;
+    margin-top: 150px;
+    background-color: white;
+    position: relative;
+    /* border: 2px solid black; */
+}
+
+.categories2 .left {
+    height: auto;
+    width: 30%;
+    /* float: left; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-right: 5%;
+    border: 2px solid red;
+}
+
+/* ------------------------------------- */
+.categories2 .left1 {
+    height: auto;
+    width: 30%;
+    /* float: left; */
+    position: absolute;
+    top: 280px;
+    left: 0;
+    margin-right: 5%;
+    border: 2px solid red;
+}
+
+.categories2 .left1 .heading1 {
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.categories2 .left1 .heading1 h2 {
+    padding: 0px 15px 15px;
+    background-color: rgb(171, 24, 61);
+    color: white;
+}
+
+.categories2 .left1 .list1 ul {
+    margin-left: 30px;
+    text-decoration: underline;
+    color: rgb(0, 21, 239);
+}
+
+.categories2 .left1 .list1 li {
+    padding-top: 10px;
+}
+
+.categories2 .left1 .view1 {
+    margin-top: 20px;
+}
+
+.categories2 .left1 .view1 h3 {
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 160);
+}
+
+/* --------------------- */
+
+
+.categories2 .center {
+    height: auto;
+    width: 30%;
+    /* float: left; */
+    position: absolute;
+    left: 358px;
+    /* margin-right: 5%; */
+    border: 2px solid red;
+}
+
+/* -------------------------------- */
+.categories2 .center1 {
+    height: auto;
+    width: 30%;
+    /* float: left; */
+    position: absolute;
+    top: 280px;
+    left: 358px;
+    /* margin-right: 5%; */
+    border: 2px solid red;
+}
+
+.categories2 .center1 .heading2 {
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.categories2 .center1 .heading2 h2 {
+    padding: 0px 15px 15px;
+    background-color: rgb(171, 24, 61);
+    color: white;
+}
+
+.categories2 .center1 .list2 ul {
+    margin-left: 30px;
+    text-decoration: underline;
+    color: rgb(0, 21, 239);
+}
+
+.categories2 .center1 .list2 li {
+    padding-top: 10px;
+}
+
+.categories2 .center1 .view2 {
+    margin-top: 20px;
+}
+
+.categories2 .center1 .view2 h3 {
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 160);
+}
+
+/* ------------------------------------ */
+
+.categories2 .right {
+    height: auto;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: left;
+    border: 2px solid red;
+}
+
+.categories2 .left .heading1 {
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.categories2 .left .heading1 h2 {
+    padding: 0px 15px 15px;
+    background-color: rgb(171, 24, 61);
+    color: white;
+}
+
+.categories2 .left .list1 ul {
+    margin-left: 30px;
+    text-decoration: underline;
+    color: rgb(0, 21, 239);
+}
+
+.categories2 .left .list1 li {
+    padding-top: 10px;
+}
+
+.categories2 .left .view1 {
+    margin-top: 20px;
+}
+
+.categories2 .left .view1 h3 {
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 160);
+}
+
+.categories2 .center .heading2 {
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.categories2 .center .heading2 h2 {
+    padding: 0px 15px 15px;
+    background-color: rgb(171, 24, 61);
+    color: white;
+}
+
+.categories2 .center .list2 ul {
+    margin-left: 30px;
+    text-decoration: underline;
+    color: rgb(0, 21, 239);
+}
+
+.categories2 .center .list2 li {
+    padding-top: 10px;
+}
+
+.categories2 .center .view2 {
+    margin-top: 20px;
+}
+
+.categories2 .center .view2 h3 {
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 160);
+}
+
+.categories2 .right .heading3 {
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.categories2 .right .heading3 h2 {
+    padding: 0px 15px 15px;
+    background-color: rgb(171, 24, 61);
+    color: white;
+}
+
+.categories2 .right .list3 ul {
+    margin-left: 30px;
+    text-decoration: underline;
+    color: rgb(0, 21, 239);
+}
+
+.categories2 .right .list3 li {
+    padding-top: 10px;
+}
+
+.categories2 .right .view3 {
+    margin-top: 20px;
+}
+
+.categories2 .right .view3 h3 {
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 160);
+}
+
+.section {
+    width: 100%;
+    height: auto;
+    border: 2px solid red;
+    background-color: white;
+}
+
+.section h2 {
+    background-color: rgb(171, 24, 61);
+    text-align: center;
+    padding: 10px;
+    margin-top: 25px;
+    color: white;
+}
+
+.section .paragraph {
+    text-align: center;
+    padding: 18px 40px;
+}
+
+.section h4 {
+    padding: 20px;
+}
+
+.section .paragraph4 {
+    padding: 20px 20px 0px 20px;
+    text-align: justify;
+}
+
+.section .paragraph2 {
+    border-left: 1px solid rgb(229, 220, 220);
+    border-top: 1px solid rgb(225, 213, 213);
+    border-bottom: 2px solid rgb(225, 213, 213);
+    padding: 15px 15px;
+    margin: 10px 0px 0px 16px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #4a4a4a;
+}
+
+.section .paragraph3 {
+    font-size: 18px;
+    color: 3c4043;
+    border-left: 1px solid rgb(229, 220, 220);
+    border-top: 1px solid rgb(225, 213, 213);
+    border-bottom: 2px solid rgb(225, 213, 213);
+    padding: 15px 15px;
+    margin: 0px 0px 0px 16px;
+}
+
+.section span {
+    float: right;
+    font-size: 25px;
+    color: #b8c2ca;
+}
+
+.section .list ul {
+    padding: 20px 20px 0px 20px;
+    margin-left: 25px;
+}
+
+.section .paragraph5 {
+    padding: 20px 20px 0px 20px;
+    margin-top: 250px;
+    text-align: justify;
+}
+
+footer{
+    height: 500px;
+    width: 80%;
+    margin: 16px auto;
+    /* border: 1px solid black; */
+    padding: 25px;
+}
+footer .div1 {
+    float: left;
+    width: 20%;
+    padding: 8px 5px 8px 12px;
+    /* border-right: 1px solid black; */
+}
+footer .div1>h3 {
+    margin: 20px 0px;
+}
+footer .div1 ul {
+    list-style: none;
+}
+
+footer .div1 li{
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.75);
+    text-align: left;
+}
+
+footer .div2 {
+    float: left;
+    width: 20%;
+    padding: 8px 5px 8px 12px;
+    /* border-right: 1px solid black; */
+}
+footer .div2>h3 {
+    margin: 20px 0px;
+}
+footer .div2 ul {
+    list-style: none;
+}
+
+footer .div2 li{
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.75);
+    text-align: left;
+}
+footer .div3 {
+    float: left;
+    width: 60%;
+    padding: 8px 5px 8px 12px;
+    /* border-right: 1px solid black; */
+}
+footer .div3>h3{
+    margin: 20px 0px;
+}
+footer .div3 .app_list{
+    width: 100%;
+}
+footer .div3 .app_list ul {
+    width: 33.33%;
+    list-style: none;
+    float: left;
+}
+footer .div3 .app_list li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.75);
+    text-align: left;
+}
